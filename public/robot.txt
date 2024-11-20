@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Allow: /features
+Allow: /how-it-works
+Allow: /contact
+
+# Prevent indexing of potential admin or API routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Prevent indexing of any potential sensitive routes
+Disallow: /internal/
+Disallow: /private/
+
+# Crawl delay to prevent server overload
+Crawl-delay: 10
+
+# Sitemap location (you would need to create and host this file)
+Sitemap: https://telocargamos.com/sitemap.xml
