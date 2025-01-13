@@ -394,7 +394,7 @@ function App() {
                     href="#contact"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    Contacto
+                    Contactanos
                   </a>
                 </li>
               </ul>
